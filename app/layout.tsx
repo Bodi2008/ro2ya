@@ -8,7 +8,7 @@ const cairo = Cairo({
 });
 
 export const metadata = {
-  title: 'مركز العلاج النفسي', // هنا العنوان زي ما هو
+  title: 'Dr.Amira Attia', // هنا العنوان زي ما هو
   description: 'احجز جلستك العلاجية بسهولة', // الوصف اللي موجود
 
   openGraph: {
