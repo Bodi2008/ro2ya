@@ -14,8 +14,9 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
               <img src="/logo.jpg" alt="Dr. Amira Attia Logo" className="w-12 h-12 object-contain rounded-full" />
               <span className="font-bold text-xl text-gray-900">Dr.Amira Attia</span>
             </Link>
-            <nav className="hidden md:flex space-x-8 space-x-reverse">
+            <nav className="hidden md:flex items-center space-x-8 space-x-reverse">
               <Link href="/" className="text-gray-600 hover:text-blue-600 font-medium">الرئيسية</Link>
+              <Link href="/my-bookings" className="text-gray-600 hover:text-blue-600 font-medium">حجوزاتي</Link>
             </nav>
           </div>
         </div>
